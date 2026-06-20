@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  background-color: #F9F9ED;
+}
+ul,
+ol{
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+[id]{
+  scroll-margin-top: 12vh;
+}
+
+/* header */
+.h-container{
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  padding: 0 10%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8CDBBB;
+}
+.h-container>h2{
+  
+  font-size: 3.2rem;
+}
+.h-container>ul{
+  display: flex;
+  font-size: 2.4rem;
+  gap: 2rem;
+}
+
+.h-container a{
+  display: inline-block;
+  padding: 1rem ;
+}
+
+
+/* main */
+.hero{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.hero>h1{
+  font-size: 6.4rem;
+}
+
+
+.about-me{
+  height: 60vh;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.about-me>h2{
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.profile{
+  display: flex;
+  gap: 4rem;
+  padding: 0 10%;
+}
+.profile>img{
+  height: 45vh;
+  width: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.skils-container h2{
+  text-align: center;
+  padding: 2rem 0;
+}
+.skils-container>ul{
+  display: flex;
+  gap: 5rem;
+}
+.skils-container img{
+  height: 10vh;
+  width: auto;
+
+}
+
+
+
+.works{
+  height: 100vh;
+  padding: 4rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.thanks{
+  height: 50vh;
+  font-size: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact{
+  height: 40vh;
+  font-size: 2rem;
+  background-color: #8CDBBB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
