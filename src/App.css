@@ -83,15 +83,15 @@ a{
   object-fit: cover;
   border-radius: 50%;
 }
-.skils-container h2{
+.skills-container h2{
   text-align: center;
   padding: 2rem 0;
 }
-.skils-container>ul{
+.skills-container>ul{
   display: flex;
   gap: 5rem;
 }
-.skils-container img{
+.skills-container img{
   height: 10vh;
   width: auto;
 
@@ -107,6 +107,105 @@ a{
   flex-direction: column;
   text-align: center;
 }
+.works img{
+  height: 30vh;
+  width: auto;
+}
+.work{
+  margin: 5rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 1200px;
+}
+.work-card{
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .3s;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+}
+.work-card:hover{
+  transform: translateY(-10px);
+  box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+.work-img{
+  height: 250px;
+  overflow: hidden;
+}
+.work-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .4s;
+}
+.work-card:hover img{
+  transform: scale(1.05);
+}
+.work-info{
+  padding: 2rem;
+  text-align: left;
+}
+
+.work-info h3{
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.work-info p{
+  font-size: 1.6rem;
+  color: #666;
+}
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContent{
+  background: white;
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  max-height: 85vh;
+  border-radius: 20px;
+  padding: 3rem;
+  gap: 3rem;
+}
+.modalContent>img{
+  width: 60%;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+.modalText{
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  overflow-y: auto;
+  object-fit: cover;
+  padding-right: 1rem;
+  scroll-behavior: smooth;
+}
+.modalText>h2{
+  font-size: 2.3rem;
+}
+.modalText>p{
+  font-size: 1.6rem;
+  white-space: pre-line;
+  margin: 0.7rem;
+}
+.modalText>a{
+  font-size: 1.8rem;
+  padding: 1rem;
+  border: 2px solid black;
+}
+
 
 .thanks{
   height: 50vh;
