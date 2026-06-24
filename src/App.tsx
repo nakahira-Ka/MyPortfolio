@@ -91,12 +91,21 @@ const works = [
   {
     id: 6,
     title: "Portfolio",
-    description: "中平奏人のPortfolio",
+    description: `【制作背景】
+    自分自身を企業へ紹介するために制作したポートフォリオサイトです。
+    
+    【実装した機能】
+    ・作品一覧表示
+    ・モーダルによる作品詳細表示
+    ・useStateを利用した状態管理
+    【工夫した点】
+    作品カードのホバーアニメーションやモーダル表示を実装し、
+    閲覧しやすいUIを意識しました。`,
     period:`デザイン:1週間
             コーディング:1週間`,
     image:"/img/Portfolio.png",
     language:"React / TypeScript / CSS",
-    url:""
+    url:"https://my-portfolio-delta-two-26.vercel.app/"
   }
 ];
 
