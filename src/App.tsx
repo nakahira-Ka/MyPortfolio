@@ -87,14 +87,17 @@ const works = [
               Open-Meteo API / Tide736 API`,
     image:"/img/SesekiNavi.png",
     url:"https://seseki.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Portfolio",
+    description: "中平奏人のPortfolio",
+    period:`デザイン:1週間
+            コーディング:1週間`,
+    image:"/img/Portfolio.png",
+    language:"React / TypeScript / CSS",
+    url:""
   }
-  // {
-  //   id: 6,
-  //   title: "Portfolio",
-  //   description: "中平奏人のPortfolio",
-  //   image:"",
-  //   url:""
-  // }
 ];
 
 
