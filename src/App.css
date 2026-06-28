@@ -107,9 +107,11 @@ a{
   flex-direction: column;
   text-align: center;
 }
-.works img{
-  height: 30vh;
-  width: auto;
+.work img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 .work{
   margin: 5rem auto 0;
@@ -225,4 +227,155 @@ a{
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* スマホ */
+@media (max-width: 768px) {
+
+  /* =====================
+     ヘッダー
+  ===================== */
+  .h-container {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .h-container h2 {
+    font-size: 2rem;
+  }
+
+  .h-container ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+  }
+
+  /* =====================
+     HERO
+  ===================== */
+  .hero {
+    height: 95vh;
+    padding: 2rem;
+  }
+
+  .hero > h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  /* =====================
+     ABOUT
+  ===================== */
+  .about-me {
+    height: auto;
+    padding: 2rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .about-me > h2 {
+    padding: 2rem 0;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .profile > img {
+    height: 200px;
+    width: 200px;
+  }
+
+  /* =====================
+     SKILLS
+  ===================== */
+  .skills-container ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .skills-container img {
+    height: 60px;
+  }
+
+  /* =====================
+     WORKS
+  ===================== */
+  .works {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .work {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .work img {
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  /* =====================
+     THANKS
+  ===================== */
+  .thanks {
+    height: auto;
+    padding: 3rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  /* =====================
+     CONTACT
+  ===================== */
+  .contact {
+    height: auto;
+    padding: 3rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  /* =====================
+MODAL
+  ===================== */
+  .modalOverlay {
+    padding: 1rem;
+  }
+
+  .modalContent {
+    width: 95%;
+    max-height: 80vh;
+    padding: 1rem;
+  }
+
+  .modalContent img {
+    width: 100%;
+    height: auto;
+  }
 }

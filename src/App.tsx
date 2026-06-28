@@ -89,6 +89,33 @@ const works = [
     url:"https://seseki.vercel.app/",
   },
   {
+    id: 4,
+    title: "TrainGuide",
+    description: `【制作背景】
+    乗換案内アプリを自作することで、API連携や経路探索ロジックの理解を深めるために制作しています（現在も開発中）。
+  
+      【実装した機能】
+      ・出発／到着駅のサジェスト検索
+      ・経路検索
+      ・複数ルートの表示
+      ・所要時間・乗換回数の表示
+  
+      【工夫した点】
+      ・APIレスポンスをそのまま表示せず、フロント側で整形してUI表示
+      ・乗換回数や徒歩区間を考慮したルート選択ロジック
+      ・サジェストUIの表示制御（開閉・選択後の自動クローズ）`,
+  
+    period: `現在の開発期間: 3週間目`,
+  
+    image: "/img/TrainGuide.png",
+  
+    language: `React / TypeScript 
+              使用したAPI
+              Transit API`,
+  
+    url: "https://train-guide-zeta.vercel.app/"
+  },
+  {
     id: 6,
     title: "Portfolio",
     description: `【制作背景】
@@ -105,7 +132,7 @@ const works = [
             コーディング:1週間`,
     image:"/img/Portfolio.png",
     language:"React / TypeScript / CSS",
-    url:"https://my-portfolio-delta-two-26.vercel.app/"
+    url:"https://kanatonakahira-portfolio.vercel.app/"
   }
 ];
 
